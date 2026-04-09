@@ -19,4 +19,4 @@ class TestLoginRegression:
 
         login_page.login(username, password)
 
-        assert home_page.is_inventory_visible()  
+        assert home_page.is_inventory_visible() 
