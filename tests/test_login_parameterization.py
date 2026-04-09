@@ -14,9 +14,9 @@ class TestLoginRegression:
         ("invalid_user", "invalid_pass"),
     ])
     def test_login_regression(self, driver, username, password):
-        loginpage = LoginPage(driver)
-        homepage = HomePage(driver) 
+        login_page = LoginPage(driver)
+        home_page = HomePage(driver) 
 
-        loginpage.login(username, password)
+        login_page.login(username, password)
 
-        assert homepage.is_inventory_visible()  
+        assert home_page.is_inventory_visible()  

@@ -16,10 +16,10 @@ class TestLoginRegression:
         
     @pytest.mark.regression
     def test_login_with_invalid_credentials(self, driver):
-        loginpage = LoginPage(driver)
-        homepage = HomePage(driver) 
-        loginpage.login("invalid_user", "invalid_pass")
-        assert "error" in homepage.is_inventory_visible()
+        login_page = LoginPage(driver)
+        home_page = HomePage(driver) 
+        login_page.login("invalid_user", "invalid_pass")
+        assert "error" in home_page.is_inventory_visible()
         
     @pytest.mark.smoke
     def test_login(self, driver):
