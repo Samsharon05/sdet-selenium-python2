@@ -1,0 +1,20 @@
+2026-04-16 01:49:06,415 - INFO - Starting test
+2026-04-16 01:49:06,418 - INFO - Logging in with valid user
+2026-04-16 01:49:06,418 - INFO - Entering username
+2026-04-16 01:49:06,418 - INFO - Typing text: standard_user
+2026-04-16 01:49:06,500 - INFO - Entering password
+2026-04-16 01:49:06,500 - INFO - Typing text: secret_sauce
+2026-04-16 01:49:06,535 - INFO - Clicking login button
+2026-04-16 01:49:06,535 - INFO - Clicking element: login-button
+2026-04-16 01:49:06,588 - INFO - Login successful
+2026-04-16 01:49:08,692 - INFO - Starting test_login_invalid
+2026-04-16 01:49:08,692 - INFO - Logging in with invalid user
+2026-04-16 01:49:08,692 - INFO - Entering username
+2026-04-16 01:49:08,693 - INFO - Typing text: invalid_user
+2026-04-16 01:49:08,784 - INFO - Entering password
+2026-04-16 01:49:08,784 - INFO - Typing text: invalid_password
+2026-04-16 01:49:08,824 - INFO - Clicking login button
+2026-04-16 01:49:08,825 - INFO - Clicking element: login-button
+2026-04-16 01:49:08,876 - INFO - Error message displayed: epic sadface: username and password do not match any user in this service
+2026-04-16 01:49:08,876 - INFO - Invalid login test passed
+2026-04-16 01:49:08,876 - INFO - THIS SHOULD APPEAR IN FILE
