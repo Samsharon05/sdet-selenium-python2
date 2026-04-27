@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from pages.base_pageD10 import BasePage
-from utils.loggersD10 import get_logger
+from pages.base_page import BasePage
+from utils.loggers import get_logger
 
 log = get_logger()
 

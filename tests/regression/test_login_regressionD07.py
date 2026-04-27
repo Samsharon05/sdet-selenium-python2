@@ -1,7 +1,7 @@
 import pytest
-from pages.login_pageD08 import LoginPage  
+from pages.login_page import LoginPage  
 from utils.config import Configdata   
-from pages.home_pageD08 import HomePage
+from pages.home_page import HomePage
 
 data = Configdata()
 
@@ -18,7 +18,7 @@ class TestLoginRegression:
         assert home_page.is_inventory_visible() is True
         
     @pytest.mark.regression
-    def test_login_with_invalid_credentials(self, driver):
+    def test_login_with_invalidC_credentials(self, driver):
         login_page = LoginPage(driver)
         
         login_page.login("invalid_user", "invalid_pass")

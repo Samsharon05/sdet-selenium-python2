@@ -1,0 +1,29 @@
+[
+  {
+    "login": {
+      "username": "testuser@example.com",
+      "password": "TestPassword123!"
+    },
+    "employee": {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@company.com",
+      "age": "30",
+      "salary": "50000",
+      "department": "IT"
+    }
+  },
+  {
+    "drag_drop": "dropped",
+    "hover_text": "You hovered over the Button"
+  },
+  {
+    "upload_file": "test_upload.txt",
+    "expected_text": "test_upload.txt"
+  },
+  {
+    "test_user": "testuser",
+    "test_password": "testpass",
+    "test_email": "test@example.com"
+  }
+]
