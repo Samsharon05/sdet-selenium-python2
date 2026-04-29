@@ -27,3 +27,36 @@
     "test_email": "test@example.com"
   }
 ]
+
+
+{
+  "test_id": "TC001",
+  "name":"sam",
+  "email":"sam@test123",
+  "age": 30,
+  "password": "TestPassword123!"
+  "expected_result":"Rjected",
+  "reason": "Age is below minimum limit"
+},
+{
+  "test_id": "TC002",
+  "name":"sarah",
+  "email":"sarah@test123",
+  "age": 25,
+  "password": "TestPassword123!"
+  "expected_result":"Accepted",
+  "reason": "All inputs are valid"
+},
+{
+  "test_id": "TC003",
+  "name":"mike",
+  "email":"mike@test123",
+  "age": 61,
+  "password": "TestPassword123!"
+  "expected_result":"Rejected",
+  "reason": "Age is below minimum limit"
+
+
+}
+
+
