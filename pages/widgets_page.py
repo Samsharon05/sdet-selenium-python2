@@ -1,4 +1,4 @@
-# Widgets section locators
+
 class DatePickerPage:
     DATE_INPUT = "//input[@id='datePickerMonthYearInput']"
     MONTH_SELECT = "//select[@class='react-datepicker__month-select']"

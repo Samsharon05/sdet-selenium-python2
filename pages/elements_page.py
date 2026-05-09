@@ -1,4 +1,4 @@
-# Elements section locators
+
 class TextBoxPage:
     FULL_NAME = "//input[@id='userName']"
     EMAIL = "//input[@id='userEmail']"
